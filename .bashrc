@@ -8,6 +8,7 @@ case $- in
       *) return;;
 esac
 
+set -o vi
 # don't put duplicate lines or lines starting with space in the history.
 # See bash(1) for more options
 HISTCONTROL=ignoreboth
@@ -118,64 +119,7 @@ fi
 [ -r /home/sonofman/.byobu/prompt ] && . /home/sonofman/.byobu/prompt   #byobu-prompt#
 
 
-
-
+byobu
 alias cdml="cd /mnt/d/.codeEnv/machine_learning"
 alias brave="cd /mnt/c/'Program Files'/BraveSoftware/Brave-Browser/Application && ./brave.exe"
-
-[ -d "/mnt/c/users/user/AppData/Local/Android/Sdk" ] && ANDROID_HOME=/mnt/c/users/user/AppData/Local/Android/Sdk || ANDROID_HOME=/mnt/c/users/user/AppData/Local/Android/Sdk
-echo "export ANDROID_HOME=$ANDROID_HOME" >> ~/`[[ $SHELL == *"zsh" ]] && echo '.zshenv' || echo '.bashrc'`
-export ANDROID_HOME=/mnt/c/users/user/AppData/Local/Android/Sdk
-export ANDROID_HOME=/mnt/c/users/user/AppData/Local/Android/Sdk
-export ANDROID_HOME=/mnt/c/users/user/AppData/Local/Android/Sdk
-export ANDROID_HOME=/mnt/c/users/user/AppData/Local/Android/Sdk
-export ANDROID_HOME=/mnt/c/users/user/AppData/Local/Android/Sdk
-export ANDROID_HOME=/mnt/c/users/user/AppData/Local/Android/Sdk
-export ANDROID_HOME=/mnt/c/users/user/AppData/Local/Android/Sdk
-export ANDROID_HOME=/mnt/c/users/user/AppData/Local/Android/Sdk
-export ANDROID_HOME=/mnt/c/users/user/AppData/Local/Android/Sdk
-export ANDROID_HOME=/mnt/c/users/user/AppData/Local/Android/Sdk
-export ANDROID_HOME=/mnt/c/users/user/AppData/Local/Android/Sdk
-export ANDROID_HOME=/mnt/c/users/user/AppData/Local/Android/Sdk
-export ANDROID_HOME=/mnt/c/users/user/AppData/Local/Android/Sdk
-export ANDROID_HOME=/mnt/c/users/user/AppData/Local/Android/Sdk
-export ANDROID_HOME=/mnt/c/users/user/AppData/Local/Android/Sdk
-export ANDROID_HOME=/mnt/c/users/user/AppData/Local/Android/Sdk
-export ANDROID_HOME=/mnt/c/users/user/AppData/Local/Android/Sdk
-export ANDROID_HOME=/mnt/c/users/user/AppData/Local/Android/Sdk
-export ANDROID_HOME=/mnt/c/users/user/AppData/Local/Android/Sdk
-export ANDROID_HOME=/mnt/c/users/user/AppData/Local/Android/Sdk
-export ANDROID_HOME=/mnt/c/users/user/AppData/Local/Android/Sdk
-export ANDROID_HOME=/mnt/c/users/user/AppData/Local/Android/Sdk
-export ANDROID_HOME=/mnt/c/users/user/AppData/Local/Android/Sdk
-export ANDROID_HOME=/mnt/c/users/user/AppData/Local/Android/Sdk
-export ANDROID_HOME=/mnt/c/users/user/AppData/Local/Android/Sdk
-export ANDROID_HOME=/mnt/c/users/user/AppData/Local/Android/Sdk
-export ANDROID_HOME=/mnt/c/users/user/AppData/Local/Android/Sdk
-export ANDROID_HOME=/mnt/c/users/user/AppData/Local/Android/Sdk
-export ANDROID_HOME=/mnt/c/users/user/AppData/Local/Android/Sdk
-export ANDROID_HOME=/mnt/c/users/user/AppData/Local/Android/Sdk
-export ANDROID_HOME=/mnt/c/users/user/AppData/Local/Android/Sdk
-export ANDROID_HOME=/mnt/c/users/user/AppData/Local/Android/Sdk
-export ANDROID_HOME=/mnt/c/users/user/AppData/Local/Android/Sdk
-export ANDROID_HOME=/mnt/c/users/user/AppData/Local/Android/Sdk
-export ANDROID_HOME=/mnt/c/users/user/AppData/Local/Android/Sdk
-export ANDROID_HOME=/mnt/c/users/user/AppData/Local/Android/Sdk
-export ANDROID_HOME=/mnt/c/users/user/AppData/Local/Android/Sdk
-export ANDROID_HOME=/mnt/c/users/user/AppData/Local/Android/Sdk
-export ANDROID_HOME=/mnt/c/users/user/AppData/Local/Android/Sdk
-export ANDROID_HOME=/mnt/c/users/user/AppData/Local/Android/Sdk
-export ANDROID_HOME=/mnt/c/users/user/AppData/Local/Android/Sdk
-export ANDROID_HOME=/mnt/c/users/user/AppData/Local/Android/Sdk
-export ANDROID_HOME=/mnt/c/users/user/AppData/Local/Android/Sdk
-export ANDROID_HOME=/mnt/c/users/user/AppData/Local/Android/Sdk
-export ANDROID_HOME=/mnt/c/users/user/AppData/Local/Android/Sdk
-export ANDROID_HOME=/mnt/c/users/user/AppData/Local/Android/Sdk
-export ANDROID_HOME=/mnt/c/users/user/AppData/Local/Android/Sdk
-export ANDROID_HOME=/mnt/c/users/user/AppData/Local/Android/Sdk
-export ANDROID_HOME=/mnt/c/users/user/AppData/Local/Android/Sdk
-export ANDROID_HOME=/mnt/c/users/user/AppData/Local/Android/Sdk
-export ANDROID_HOME=/mnt/c/users/user/AppData/Local/Android/Sdk
-export ANDROID_HOME=/mnt/c/users/user/AppData/Local/Android/Sdk
-export ANDROID_HOME=/mnt/c/users/user/AppData/Local/Android/Sdk
-export ANDROID_HOME=/mnt/c/users/user/AppData/Local/Android/Sdk
+alias python=python3
